@@ -83,6 +83,7 @@ view model =
                 , Attr.style "padding-top" "40px"
                 ]
                 [ Html.text model.message ]
+            , Html.div [] [ Html.text "u wot, m8" ]
             ]
         ]
     }
